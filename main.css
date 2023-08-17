@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+body p {
+    color: #0c0c0c;
+}
+
+header {
+    padding: 16px 0 0 0;
+    background-color: #493529;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container,
+.articles article h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-left: 32px;
+    font-size: 26px;
+}
+
+section p {
+    margin-bottom: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.container a {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .buttom {
+    display: flex;
+    justify-content: center;
+}
+
+#options h2 {
+    margin-bottom: 8px;
+}
+
+#about {
+    background-color: #6d6051;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+#azul {
+    padding: 0;
+}
+
+#lados {
+    padding: 8px;
+}
+
+#robin {
+    background-color: #0453a4;
+}
+
+#tracy {
+    background-color: #fbf43c;
+}
+
+.articles article h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.articles article p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lados {
+    background-color: #6d6051;
+}
+
+#critica {
+    background-color: #6d6051;
+    padding: 24px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    background-color: #493529;
+    border: none;
+    margin-bottom: 6px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder,
+form button {
+    color: #0c0c0c;
+}
+
+form input,
+form textarea {
+    font-family: 'Inter', sans-serif;
+}
+
+form button {
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #0453a4;
+    color: #fbf43c
+}
+
+input:focus, textarea:focus {
+    outline-color: #fbf43c;
+}
+
+.critica, .crit-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crit-title h2 {
+    margin-bottom: 8px;
+    margin-left: 0;
+    font-size: 23;
+    color: #ecf0f1;
+}
+
+footer {
+    padding: 10px;
+    background-color: #0453a4;
+}
+
+footer p {
+    color: #fbf43c;
+}
+
+.buttom img:hover {
+    height: 150px;
+}
